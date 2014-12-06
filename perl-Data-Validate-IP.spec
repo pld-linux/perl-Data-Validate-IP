@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	tests		# build without tests
+%bcond_without	tests		# build without tests
 
 %define		pdir	Data
 %define		pnam	Validate-IP
@@ -18,7 +18,6 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Exporter)
 BuildRequires:	perl(ExtUtils::MakeMaker)
-BuildRequires:	perl(Net::Netmask)
 BuildRequires:	perl(NetAddr::IP)
 BuildRequires:	perl(Scalar::Util)
 BuildRequires:	perl(Test::More)
