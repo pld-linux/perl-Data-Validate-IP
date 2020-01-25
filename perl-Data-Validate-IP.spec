@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	Validate-IP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl IP address validation routines
 Name:		perl-Data-Validate-IP
 Version:	0.24
