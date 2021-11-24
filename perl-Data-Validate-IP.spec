@@ -6,12 +6,12 @@
 %define		pnam	Validate-IP
 Summary:	Perl IP address validation routines
 Name:		perl-Data-Validate-IP
-Version:	0.24
+Version:	0.30
 Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Libraries
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/Data-Validate-IP-%{version}.tar.gz
-# Source0-md5:	3476e091f870b19ba53cb917ab8c7167
+# Source0-md5:	1302d60a6a0670b4105c9b7478a37992
 URL:		http://search.cpan.org/dist/Data-Validate-IP
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
